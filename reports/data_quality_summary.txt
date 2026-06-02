@@ -1,0 +1,24 @@
+Data Quality Summary Report
+
+Project: Mutual Fund Analytics
+
+Total CSV Files Analyzed: 11
+
+Data Quality Checks Performed:
+
+1. Shape Analysis
+2. Column Validation
+3. Data Type Inspection
+4. Missing Value Check
+5. Duplicate Record Check
+
+Results:
+
+- All CSV files were successfully loaded using Pandas.
+- No missing values were found in any dataset.
+- No duplicate records were found in any dataset.
+- Column structures and data types were successfully inspected.
+- Data quality is good and suitable for further analysis.
+
+Conclusion:
+The datasets passed all basic data quality checks and are ready for preprocessing, exploratory data analysis, and dashboard development.
