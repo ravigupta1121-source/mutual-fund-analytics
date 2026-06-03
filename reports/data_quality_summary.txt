@@ -22,3 +22,11 @@ Results:
 
 Conclusion:
 The datasets passed all basic data quality checks and are ready for preprocessing, exploratory data analysis, and dashboard development.
+
+Fund Houses: 10
+Categories: 2
+Sub Categories: 12
+Risk Categories: Moderate, Very High, Low, High, Moderately High
+
+AMFI Validation:
+Missing AMFI Codes: 0
