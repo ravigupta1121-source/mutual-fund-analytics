@@ -1,16 +1,19 @@
-import requests
 import pandas as pd
+import requests
 
-url = "https://api.mfapi.in/mf/125497"
+funds = {
+    "sbi_bluechip": 119551,
+    "icici_bluechip": 120503,
+    "nippon_largecap": 118632,
+    "axis_bluechip": 119092,
+    "kotak_bluechip": 120841
+}
 
-response = requests.get(url)
+for name, code in funds.items():
+    url = f"https://api.mfapi.in/mf/{code}"
+    data = requests.get(url).json()
 
-data = response.json()
+    df = pd.DataFrame(data["data"])
+    df.to_csv(f"data/raw/{name}_nav.csv", index=False)
 
-print(data)
-
-nav_df = pd.DataFrame(data["data"])
-
-nav_df.to_csv("data/raw/hdfc_nav.csv", index=False)
-
-print("CSV file saved successfully!")
+    print(f"{name} saved")
