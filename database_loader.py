@@ -1,3 +1,10 @@
+"""
+Database Loader Script
+Mutual Fund Analytics Project
+
+This script loads cleaned data into SQLite database.
+"""
+
 import pandas as pd
 from sqlalchemy import create_engine
 

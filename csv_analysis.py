@@ -1,3 +1,11 @@
+"""
+CSV Analysis Script
+Mutual Fund Analytics Project
+
+This script performs exploratory data analysis
+on mutual fund datasets.
+"""
+
 import pandas as pd
 import os
 

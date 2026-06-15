@@ -1,3 +1,11 @@
+"""
+Data Cleaning Script
+Mutual Fund Analytics Project
+
+This script cleans and preprocesses mutual fund data
+for analysis and dashboard creation.
+"""
+
 import pandas as pd
 
 # =========================

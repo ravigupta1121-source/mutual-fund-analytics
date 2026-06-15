@@ -1,3 +1,11 @@
+"""
+Live NAV Fetch Script
+Mutual Fund Analytics Project
+
+This script fetches latest NAV data
+for mutual funds.
+"""
+
 import pandas as pd
 import requests
 
